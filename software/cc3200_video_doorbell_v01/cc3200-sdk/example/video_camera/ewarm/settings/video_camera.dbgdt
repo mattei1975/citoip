@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1541</ColumnWidth1></Debug-Log>
+      <Build>
+        <ColumnWidth0>20</ColumnWidth0>
+        <ColumnWidth1>1155</ColumnWidth1>
+        <ColumnWidth2>308</ColumnWidth2>
+        <ColumnWidth3>77</ColumnWidth3>
+      </Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>241</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>1</ShowCodeCoverage><ShowInstrProfiling>1</ShowInstrProfiling></Disassembly>
+    <CallStack><col-names><item>Frame</item><item>_I0</item></col-names><col-widths><item>3500</item><item>20</item></col-widths></CallStack><WATCH_1><expressions><item>setup_count</item><item>pkt_info</item><item>rtspPktData</item><item>g_mediaSockInfo</item><item>app_a_data</item><item>tx_buffer</item><item>p_play_buffer</item><item/></expressions><col-names><item>Expression</item><item>Location</item><item>Type</item><item>Value</item></col-names><col-widths><item>149</item><item>150</item><item>100</item><item>168</item></col-widths></WATCH_1><Memory><FindAsHex>0</FindAsHex></Memory><SourceBrowser/></Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-19762-10013</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-19240-10023</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        <Tab><Identity>TabID-6302-23412</Identity><TabName>Breakpoints</TabName><Factory>Breakpoints</Factory></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-30511-10016</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>video_camera</ExpandedNode></NodeDict></Session>
+          </Tab>
+        <Tab><Identity>TabID-8909-11135</Identity><TabName>Source Browser</TabName><Factory>SourceBrowser</Factory><Session><TypeFilter>2147483647</TypeFilter><FileFilter>1</FileFilter></Session></Tab></Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd4>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-8491-10020</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd4><Wnd5><Tabs><Tab><Identity>TabID-11849-21382</Identity><TabName>Call Stack</TabName><Factory>CallStack</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd5><Wnd6><Tabs><Tab><Identity>TabID-3947-26159</Identity><TabName>Watch 1</TabName><Factory>WATCH_1</Factory></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd6><Wnd7><Tabs><Tab><Identity>TabID-165-26127</Identity><TabName>Memory</TabName><Factory>Memory</Factory><Session><ZoneNumber>0</ZoneNumber><SelectionAnchor>537024712</SelectionAnchor><SelectionEnd>537024712</SelectionEnd><UnitsPerGroup>4</UnitsPerGroup><EndianMode>0</EndianMode><DataCovEnabled>0</DataCovEnabled><DataCovShown>0</DataCovShown><AutoRefresh>0</AutoRefresh><HScroll>0</HScroll><VScroll>33564039</VScroll></Session></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd7></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\lp3p0_board.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>122</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\Release_Smartconfig\List\video_camera.map</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>15</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\cc3200.icf</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>27</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\..\..\..\..\ReleaseInstallers\v12_May05\CC3200SDK_1.2.0\cc3200-sdk\driverlib\spi.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>139</YPos2><SelStart2>5277</SelStart2><SelEnd2>5277</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\netapps\rtp_rtcp\rtcp_rtp.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>155</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\common\startup_ewarm.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>205</YPos2><SelStart2>10210</SelStart2><SelEnd2>10210</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\lp3p0_plat_ops.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>173</YPos2><SelStart2>6796</SelStart2><SelEnd2>6796</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\pinmux.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\fs_if.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>26</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\fs_if.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\third_party\ov_sif_inerface\ov_sif_if.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>141</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\third_party\ov_sif_inerface\ov_sif_if.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>32</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\app_common.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>37</YPos2><SelStart2>1787</SelStart2><SelEnd2>1787</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\netapps\rtsp\rtsp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>146</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\middleware\soc\cc_pm_ops.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>60</YPos2><SelStart2>4662</SelStart2><SelEnd2>4662</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\common\network_common.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1126</SelStart2><SelEnd2>1126</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\rtsp_main_task.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>421</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\netapps\rtp_rtcp\rtcp_rtp.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\netapps\rtsp\rtsp.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>21</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\oslib\osi.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>473</YPos2><SelStart2>17626</SelStart2><SelEnd2>17626</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\video_tx_task.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>390</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>C:\Program Files (x86)\IAR Systems\EWARM_7.40.2\arm\inc\c\DLib_Product_string.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>38</YPos2><SelStart2>1917</SelStart2><SelEnd2>1917</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\provisioning.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>295</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\simplelink_extlib\provisioninglib\provisioning_logic.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>114</YPos2><SelStart2>6108</SelStart2><SelEnd2>6108</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\..\..\simplelink\user.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>603</YPos2><SelStart2>18706</SelStart2><SelEnd2>18706</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\audio_tx_task.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>455</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>186</YPos2><SelStart2>4779</SelStart2><SelEnd2>4779</SelEnd2></Tab><ActiveTab>26</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\cc_pal_app.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>81</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\..\cc_pal_app.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>105</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-1741A218><key>debuggergui.enu1</key></Toolbar-1741A218><Toolbar-017118C8><key>iaridepm.enu1</key></Toolbar-017118C8></Sizes></Row0><Row1><Sizes/></Row1><Row2><Sizes/></Row2><Row3><Sizes/></Row3></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>669</Bottom><Right>315</Right><x>-2</x><y>-2</y><xscreen>502</xscreen><yscreen>1457</yscreen><sizeHorzCX>313750</sizeHorzCX><sizeHorzCY>1329380</sizeHorzCY><sizeVertCX>198125</sizeVertCX><sizeVertCY>612226</sizeVertCY></Rect></Wnd1></Sizes></Row0><Row1><Sizes><Wnd5><Rect><Top>-2</Top><Left>313</Left><Bottom>669</Bottom><Right>473</Right><x>313</x><y>-2</y><xscreen>502</xscreen><yscreen>1091</yscreen><sizeHorzCX>313750</sizeHorzCX><sizeHorzCY>995438</sizeHorzCY><sizeVertCX>100000</sizeVertCX><sizeVertCY>612226</sizeVertCY></Rect></Wnd5></Sizes></Row1></Left><Right><Row0><Sizes><Wnd4><Rect><Top>-2</Top><Left>-2</Left><Bottom>669</Bottom><Right>242</Right><x>-2</x><y>-2</y><xscreen>502</xscreen><yscreen>1457</yscreen><sizeHorzCX>313750</sizeHorzCX><sizeHorzCY>1329380</sizeHorzCY><sizeVertCX>152500</sizeVertCX><sizeVertCY>612226</sizeVertCY></Rect></Wnd4></Sizes></Row0><Row1><Sizes><Wnd6><Rect><Top>-2</Top><Left>240</Left><Bottom>669</Bottom><Right>489</Right><x>240</x><y>-2</y><xscreen>502</xscreen><yscreen>1091</yscreen><sizeHorzCX>313750</sizeHorzCX><sizeHorzCY>995438</sizeHorzCY><sizeVertCX>155625</sizeVertCX><sizeVertCY>612226</sizeVertCY></Rect></Wnd6></Sizes></Row1></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>232</Bottom><Right>1602</Right><x>-2</x><y>-2</y><xscreen>1604</xscreen><yscreen>234</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>213504</sizeHorzCY><sizeVertCX>313750</sizeVertCX><sizeVertCY>1329380</sizeVertCY></Rect></Wnd0></Sizes></Row0><Row1><Sizes><Wnd7><Rect><Top>230</Top><Left>-2</Left><Bottom>382</Bottom><Right>1602</Right><x>-2</x><y>230</y><xscreen>1604</xscreen><yscreen>152</yscreen><sizeHorzCX>1002500</sizeHorzCX><sizeHorzCY>138686</sizeHorzCY><sizeVertCX>368125</sizeVertCX><sizeVertCY>1644161</sizeVertCY></Rect></Wnd7></Sizes></Row1></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+

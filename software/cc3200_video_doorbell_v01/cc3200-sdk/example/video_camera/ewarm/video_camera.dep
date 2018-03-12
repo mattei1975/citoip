@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3269606117</fileChecksum>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\get_av_task.c</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\udma.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_mcspi.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Release\Obj\pinmux.o</file>
+      <file>$PROJ_DIR$\..\..\..\oslib\osi.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom_patch.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Release\Obj\timer_if.o</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink_extlib\provisioninglib\provisioning_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\dma_hal.h</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_ewarm.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\hw_timer.h</file>
+      <file>$PROJ_DIR$\..\..\common\utils_if.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\prcm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\gpio_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\soc\cc_io_park.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom_map.h</file>
+      <file>$PROJ_DIR$\Release\Obj\startup_ewarm.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_ints.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\interrupt_hal.h</file>
+      <file>$PROJ_DIR$\..\provisioning.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_common_reg.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\spi_drv.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\source\objInclusion.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\simplelink.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\Release\Obj\uart_if.o</file>
+      <file>$PROJ_DIR$\Release\Obj\get_av_task.o</file>
+      <file>$PROJ_DIR$\Release\Obj\rtsp_main_task.o</file>
+      <file>$PROJ_DIR$\Release\Obj\video_tx_task.o</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\source\spawn.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_apps_rcm.h</file>
+      <file>$PROJ_DIR$\Release\Obj\audio_tx_task.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\hw_timer32.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\uart_hal.h</file>
+      <file>$PROJ_DIR$\..\..\common\uart_if.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\trace.h</file>
+      <file>$PROJ_DIR$\..\video_tx_task.h</file>
+      <file>$PROJ_DIR$\Release\Exe\video_camera.out</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\fs.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\soc\cc_pm_ops.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\cc_pal.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\wlan.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Release\Exe\video_camera.bin</file>
+      <file>$PROJ_DIR$\..\audio_tx_task.h</file>
+      <file>$PROJ_DIR$\..\cc_pal_app.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\get_av_task.h</file>
+      <file>$PROJ_DIR$\..\rtsp_main_task.h</file>
+      <file>$PROJ_DIR$\Release\Obj\utils_if.o</file>
+      <file>$PROJ_DIR$\Release\Obj\timer_if.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\netapps\rtsp\rtsp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lp3p0_plat_ops.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\lp3p0_board.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\third_party\ov_sif_inerface\ov_sif_if.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\hwspinlock.h</file>
+      <file>$PROJ_DIR$\Release\Obj\fs_if.pbi</file>
+      <file>$PROJ_DIR$\..\..\common\timer_if.h</file>
+      <file>$PROJ_DIR$\Release\Obj\provisioning.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\main.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\spi_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink_extlib\provisioninglib\provisioning_defs.h</file>
+      <file>$PROJ_DIR$\Release\Obj\cc_pal_app.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\cc_pal_app.o</file>
+      <file>$PROJ_DIR$\Release\Obj\audio_tx_task.o</file>
+      <file>$PROJ_DIR$\Release\Obj\rtsp_main_task.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\network_common.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\video_camera.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\get_av_task.pbi</file>
+      <file>$PROJ_DIR$\..\app_common.h</file>
+      <file>$PROJ_DIR$\Release\Obj\uart_if.pbi</file>
+      <file>$PROJ_DIR$\Release\Obj\network_common.o</file>
+      <file>$PROJ_DIR$\..\fs_if.h</file>
+      <file>$PROJ_DIR$\Release\Obj\video_tx_task.pbi</file>
+      <file>$PROJ_DIR$\..\pinmux.h</file>
+      <file>$PROJ_DIR$\..\audio_tx_task.c</file>
+      <file>$PROJ_DIR$\..\cc_pal_app.c</file>
+      <file>$PROJ_DIR$\..\fs_if.c</file>
+      <file>$PROJ_DIR$\..\lp3p0_board.c</file>
+      <file>$PROJ_DIR$\..\lp3p0_plat_ops.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\pinmux.c</file>
+      <file>$PROJ_DIR$\..\..\common\network_common.c</file>
+      <file>$PROJ_DIR$\..\provisioning.c</file>
+      <file>$PROJ_DIR$\..\rtsp_main_task.c</file>
+      <file>$PROJ_DIR$\..\..\common\timer_if.c</file>
+      <file>$PROJ_DIR$\..\..\common\startup_ewarm.c</file>
+      <file>$PROJ_DIR$\..\..\common\uart_if.c</file>
+      <file>$PROJ_DIR$\..\..\common\utils_if.c</file>
+      <file>$PROJ_DIR$\..\video_tx_task.c</file>
+      <file>$PROJ_DIR$\Release\Obj\lp3p0_board.o</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\netapp.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\device.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\framework\pm\cc_types.h</file>
+      <file>$PROJ_DIR$\Release\Obj\lp3p0_plat_ops.o</file>
+      <file>$PROJ_DIR$\..\app_config.h</file>
+      <file>$PROJ_DIR$\..\user_app_config.h</file>
+      <file>$PROJ_DIR$\Release\Obj\pinmux.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\rtc_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\Release\Obj\provisioning.o</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\user.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\framework\timer\cc_timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\netapps\rtp_rtcp\rtcp_rtp.h</file>
+      <file>$PROJ_DIR$\Release\Obj\utils_if.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\pin.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\Release\Obj\fs_if.o</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\netcfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\util64.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\framework\pm\cc_pm.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\wlan_rx_filters.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\uart_drv.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\get_av_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release\Exe\video_camera.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\audio_tx_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 108 34 112 122 8 123 18 3 76 12 86 59 27 132 35 33 135 60 70 66 62 126 31 21 28 53 109 121 47 57 9 61 116 26 130 17 24 6 127 119 50 134 56 129 40 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\cc_pal_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 121 26 6 76 57 61 27 70 116 130 24 9 73 132 31 3 21 35 28 122 127 126 18 60 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\fs_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 128</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 109 76 57 61 27 34 8 53 121 132 33 108 135 12 9 3 89 119 50 134 56 129 40 55 6 122 127 126 18 31 21 28 60 116 26 130 17 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\lp3p0_board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 57 54 4 45 29 130 41 19 126 46 28 121 11 7 1 136 48 113 44 23 110 3 116 31 21 26 17 25 2 133 120 32 115 13 6 8 76 18 15 131 47 132 122 9 61 127 67 77 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\lp3p0_plat_ops.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 68</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 27 57 61 76 21 19 127 121 125 116 6 54 91 122 9 8 132 133 130 17 110 20 16 126 18 23 4 28 47 1 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 134 86 55 18 34 23 121 63 129 122 27 17 49 59 119 50 56 40 6 127 126 26 70 133 51 62 91 33 53 108 109 135 12 76 9 57 61 110 60 116 130 24 132 4 44 31 3 21 35 28 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\pinmux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 114</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 5</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 125 8 116 21 132 11 130 28 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\network_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 27 61 126 50 76 34 9 56 6 122 18 134 129 55 47 119 33 53 108 109 135 40 121 12 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\provisioning.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 109 76 73 53 121 27 126 21 122 63 78 33 108 135 12 18 31 28 8 86 60 119 50 134 56 129 40 55 6 127 9 57 61 132 3 35 30 116 26 130 17 24 23 44</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\rtsp_main_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 34 30 135 110 54 112 108 12 76 60 130 70 86 133 51 66 53 109 121 9 23 27 116 24 63 59 62 123 6 119 50 134 56 129 40 55 122 127 57 61 26 17 4 126 18 44 132 31 3 21 35 28 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\timer_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17 35 6 122 27 126 26 130 8 18 116 118 24 21 47 73 76 57 9 61 132</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 22</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26 132 35</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\uart_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 27 25 44 132 6 9 127 23 17 21 57 61 122 47 121 116 125 130 49 126 18 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\utils_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 124</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 64</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 61 3 130 132 71 27 9 4 116 21 17 76 126 18 67 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\video_tx_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 39</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34 28 6 109 76 62 53 121 9 31 8 63 112 33 108 135 12 57 61 27 21 51 60 86 123 119 50 134 56 129 40 55 122 127 126 18 132 3 35 70 116 26 130 17 24</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release_LegacyProvisioning</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\get_av_task.c</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\udma.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_mcspi.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\spi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+      <file>$PROJ_DIR$\..\..\..\oslib\osi.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom_patch.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink_extlib\provisioninglib\provisioning_api.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\dma_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\hw_timer.h</file>
+      <file>$PROJ_DIR$\..\..\common\utils_if.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\prcm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\gpio_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\soc\cc_io_park.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom_map.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\uart.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_ints.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\main.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\get_av_task.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\video_camera.pbd</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\lp3p0_board.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\fs_if.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\network_common.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\lp3p0_plat_ops.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\uart_if.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\rtsp_main_task.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\timer_if.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\lp3p0_board.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\audio_tx_task.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\pinmux.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\provisioning.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\get_av_task.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\fs_if.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\uart_if.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\pinmux.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\lp3p0_plat_ops.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\startup_ewarm.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\timer_if.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\utils_if.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\video_tx_task.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\rtsp_main_task.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\cc_pal_app.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\audio_tx_task.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\interrupt_hal.h</file>
+      <file>$PROJ_DIR$\..\provisioning.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_common_reg.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\spi_drv.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\source\objInclusion.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\simplelink.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\source\spawn.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_apps_rcm.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_nvic.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\hw_timer32.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\uart_hal.h</file>
+      <file>$PROJ_DIR$\..\..\common\uart_if.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\trace.h</file>
+      <file>$PROJ_DIR$\..\video_tx_task.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\fs.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\soc\cc_pm_ops.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\cc_pal.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\wlan.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\audio_tx_task.h</file>
+      <file>$PROJ_DIR$\..\cc_pal_app.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\get_av_task.h</file>
+      <file>$PROJ_DIR$\..\rtsp_main_task.h</file>
+      <file>$PROJ_DIR$\..\..\..\netapps\rtsp\rtsp.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$PROJ_DIR$\..\..\..\third_party\ov_sif_inerface\ov_sif_if.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\hwspinlock.h</file>
+      <file>$PROJ_DIR$\..\..\common\timer_if.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\spi_hal.h</file>
+      <file>$PROJ_DIR$\..\app_common.h</file>
+      <file>$PROJ_DIR$\..\fs_if.h</file>
+      <file>$PROJ_DIR$\..\pinmux.h</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Exe\video_camera.out</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\video_tx_task.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\provisioning.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Exe\video_camera.bin</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\network_common.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\startup_ewarm.pbi</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\cc_pal_app.o</file>
+      <file>$PROJ_DIR$\Release_LegacyProvisioning\Obj\utils_if.pbi</file>
+      <file>$PROJ_DIR$\..\audio_tx_task.c</file>
+      <file>$PROJ_DIR$\..\cc_pal_app.c</file>
+      <file>$PROJ_DIR$\..\fs_if.c</file>
+      <file>$PROJ_DIR$\..\lp3p0_board.c</file>
+      <file>$PROJ_DIR$\..\lp3p0_plat_ops.c</file>
+      <file>$PROJ_DIR$\..\main.c</file>
+      <file>$PROJ_DIR$\..\pinmux.c</file>
+      <file>$PROJ_DIR$\..\..\common\network_common.c</file>
+      <file>$PROJ_DIR$\..\provisioning.c</file>
+      <file>$PROJ_DIR$\..\rtsp_main_task.c</file>
+      <file>$PROJ_DIR$\..\..\common\timer_if.c</file>
+      <file>$PROJ_DIR$\..\..\common\startup_ewarm.c</file>
+      <file>$PROJ_DIR$\..\..\common\uart_if.c</file>
+      <file>$PROJ_DIR$\..\..\common\utils_if.c</file>
+      <file>$PROJ_DIR$\..\video_tx_task.c</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\netapp.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\device.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\framework\pm\cc_types.h</file>
+      <file>$PROJ_DIR$\..\app_config.h</file>
+      <file>$PROJ_DIR$\..\user_app_config.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\rtc_hal.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\debug.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\user.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\framework\timer\cc_timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\..\..\netapps\rtp_rtcp\rtcp_rtp.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\pin.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\netcfg.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\hal\util64.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_types.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\framework\pm\cc_pm.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\socket.h</file>
+      <file>$PROJ_DIR$\..\..\..\simplelink\include\wlan_rx_filters.h</file>
+      <file>$PROJ_DIR$\..\..\..\middleware\driver\uart_drv.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\get_av_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 23 81 133 71 54 78 128 123 15 24 68 77 120 67 72 59 5 127 126 84 18 74 86 56 69 112 113 134 122 10 8 73 76 131 3 58 7 75 118 22 129 14 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 89</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Release_LegacyProvisioning\Exe\video_camera.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 92</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\audio_tx_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 37</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 115 84 5 124 22 23 71 86 57 74 8 122 14 127 128 75 81 79 77 73 76 118 129 20 123 120 67 72 59 64 126 15 131 54 3 18 58 24 7 56 69 112 113 134 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\cc_pal_app.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 122 8 22 5 84 81 118 129 20 73 76 23 83 131 54 3 18 58 24 123 127 126 15 75 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\fs_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 113 84 73 76 23 57 7 69 122 131 56 112 134 10 8 3 87 120 67 133 72 128 59 71 5 123 127 126 15 54 18 24 75 118 22 129 14 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\lp3p0_board.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23 73 70 4 62 52 129 60 16 126 63 24 122 9 6 1 135 65 116 61 19 114 3 118 54 18 22 14 21 2 132 121 55 117 11 5 7 84 15 12 130 64 131 123 8 76 127 80 85 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\lp3p0_plat_ops.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 11 23 73 76 84 18 16 127 122 125 118 5 70 88 123 8 7 131 132 129 14 114 17 13 126 15 19 4 24 64 1 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 133 86 71 15 57 19 122 78 128 123 23 14 66 74 120 67 72 59 5 127 126 22 81 132 68 77 88 56 69 112 113 134 10 84 8 73 76 114 75 118 129 20 131 4 61 54 3 18 58 24 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\pinmux.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 38</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 125 7 118 18 131 9 129 24 88</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\network_common.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 23 67 57 73 72 5 123 8 76 133 128 71 64 126 15 120 56 69 112 113 134 59 122 10 127</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\provisioning.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 91</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10 57 112 83 56 134 73 76 84 23 18 78 69 113 122 8 54 24 86 75 120 67 133 72 128 59 71 5 123 127 126 15 131 3 58 7 53 118 22 129 14 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\rtsp_main_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 56 57 53 134 114 70 115 112 10 84 75 129 81 86 132 68 79 69 113 122 8 19 23 118 20 78 74 77 124 5 120 67 133 72 128 59 71 123 127 73 76 22 14 4 126 15 61 131 54 3 18 58 24 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\timer_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 35</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14 58 5 123 23 126 22 129 7 15 118 119 20 18 64 83 84 73 8 76 131</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\startup_ewarm.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 94</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 22 131 58</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\uart_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 33</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84 23 21 61 131 5 8 127 19 14 18 73 76 123 64 122 118 125 129 66 126 15 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\common\utils_if.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 73 76 3 129 131 82 23 8 4 118 18 14 84 126 15 80 7</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\video_tx_task.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57 24 5 113 84 23 77 69 122 15 54 7 78 115 56 112 134 10 126 18 68 75 86 124 120 67 133 72 128 59 71 123 127 8 73 76 131 3 58 81 118 22 129 14 20</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

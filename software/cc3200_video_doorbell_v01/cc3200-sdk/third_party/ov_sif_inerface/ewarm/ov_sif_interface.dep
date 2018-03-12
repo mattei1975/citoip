@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>1041791917</fileChecksum>
+  <configuration>
+    <name>Release</name>
+    <outputs>
+      <file>$PROJ_DIR$\..\ov_sif_if.c</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\timer.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\spi.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_common_reg.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_memmap.h</file>
+      <file>$PROJ_DIR$\..\..\..\oslib\osi.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$PROJ_DIR$\..\ov_sif_if.h</file>
+      <file>$PROJ_DIR$\Release\Obj\ov_sif_interface.pbd</file>
+      <file>$PROJ_DIR$\Release\Obj\ov_sif_if.o</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\gpio.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Release\Exe\ov_sif_interface.a</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom_patch.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\prcm.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\rom_map.h</file>
+      <file>$PROJ_DIR$\..\..\..\driverlib\interrupt.h</file>
+      <file>$PROJ_DIR$\Release\Obj\ov_sif_if.pbi</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_ints.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\..\inc\hw_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$PROJ_DIR$\..\..\..\example\video_camera\fs_if.h</file>
+      <file>$PROJ_DIR$\..\..\..\example\video_camera\cc_pal_app.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\..\ov_sif_if.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6 5 14 12 24 26 20 29 27 16 30 7 23 22 4 11 1 31 32 15 21 25 3 2 17 18 10 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>IARCHIVE</name>
+          <file> 13</file>
+        </tool>
+      </outputs>
+    </file>
+    <forcedrebuild>
+      <name>[REBUILD_ALL]</name>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
