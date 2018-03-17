@@ -8463,4 +8463,20 @@ Text GLabel 7650 4950 2    60   Input ~ 0
 RADIO_GPIO6
 Wire Wire Line
 	7500 4950 7650 4950
+Text GLabel 7650 4850 2    60   Input ~ 0
+RADIO_GPIO5
+Text GLabel 7650 4750 2    60   Input ~ 0
+RADIO_GPIO4
+Text GLabel 7650 4650 2    60   Input ~ 0
+RADIO_GPIO3
+Text GLabel 7650 4550 2    60   Input ~ 0
+RADIO_GPIO2
+Wire Wire Line
+	7650 4550 7500 4550
+Wire Wire Line
+	7500 4650 7650 4650
+Wire Wire Line
+	7650 4750 7500 4750
+Wire Wire Line
+	7500 4850 7650 4850
 $EndSCHEMATC
