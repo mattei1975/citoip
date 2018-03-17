@@ -1284,4 +1284,6 @@ Text GLabel 6100 7150 2    60   Input ~ 0
 AMPLY_R-
 Text GLabel 6100 7900 2    60   Input ~ 0
 AMPLY_R+
+Text Notes 8350 8450 0    197  ~ 0
+Missed: \npower amplifier, \npower codec,\nmicrophone\n
 $EndSCHEMATC
