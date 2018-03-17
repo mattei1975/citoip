@@ -8459,4 +8459,8 @@ Text GLabel 13850 4150 2    60   BiDi ~ 0
 RADIO_I2C_SDA
 Text GLabel 13850 4450 2    60   BiDi ~ 0
 RADIO_I2S_CLK
+Text GLabel 7650 4950 2    60   Input ~ 0
+RADIO_GPIO6
+Wire Wire Line
+	7500 4950 7650 4950
 $EndSCHEMATC
